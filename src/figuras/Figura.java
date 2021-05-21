@@ -13,5 +13,7 @@ public abstract class Figura {
        return 0;
    } 
     
+ 
+   
     
 }

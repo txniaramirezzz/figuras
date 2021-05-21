@@ -1,21 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package figuras;
 
-/**
- *
- * @author txnia
- */
+
 public class Figuras {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+         // PRIMER RECTANGULO
+        Rectanguo r1 = new Rectanguo (2.0,4.0);
+       
+        System.out.println("RECTANGULOS");
+        System.out.println("PERIMETROS");
+        System.out.println("RECTANGULO BASE:"+r1.getBase()+"ALTURA"+r1.getAltura()+"PERIMETRO"+r1.calcularperimetro());
+        System.out.println("RECTANGULO BASE"+r1.getBase()+"ALTURA"+r1.getAltura()+"AREA"+r1.calculararea());
+        //PRIMER CIRCULO
+        Circulo c1 = new Circulo (2);
+        System.out.println("CIRCULOS");
+        System.out.println("PERIMETROS");
+        System.out.println("CIRCULO RADIO:"+c1.getRadio()+"PERIMETRO"+c1.calcularPerimetro());
+        System.out.println("CIRCULO RADIO:"+c1.getRadio()+"AREA"+c1.calcularArea());
+        
+        
+        
     }
     
 }
